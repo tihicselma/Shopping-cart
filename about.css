@@ -4,7 +4,6 @@
 }
 .lines{
     position: relative;
-    /*  new lines  */
     max-width: 500px;
     margin: 100px auto;
     text-align: center;

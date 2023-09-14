@@ -1,22 +1,20 @@
-/* Target the product container */
+
 #products {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start; /* Align items at the top of the container */
+  align-items: flex-start; 
 }
 
-/* Target each product */
 .product {
-  width: calc(33.33% - 20px); /* Set the width to 33.33% (3 items in a row) with spacing */
+  width: calc(33.33% - 20px);
   margin-bottom: 20px;
   box-sizing: border-box;
 }
 
-/* Add your existing card and container styles here */
 .card {
   background-color: white;
-  /* Your card styles */
+
 }
 
 .container {

@@ -7,30 +7,30 @@ document.addEventListener("DOMContentLoaded", function () {
     const checkoutButton = document.getElementById("checkout-button");
 
     function updateCart() {
-        cartItems.innerHTML = ""; // Clear the cart items list
+        cartItems.innerHTML = "";
         let total = 0.00;
 
         cart.forEach((item, index) => {
             const listItem = document.createElement("li");
-            listItem.classList.add("cart-item"); // Add a class for styling
+            listItem.classList.add("cart-item"); 
 
             const itemText = document.createElement("span");
             itemText.textContent = `${item.product} x ${item.quantity} - ${item.price} KM`;
             listItem.appendChild(itemText);
 
             const buttonGroup = document.createElement("div");
-            buttonGroup.classList.add("button-group"); // Add a class for styling
+            buttonGroup.classList.add("button-group"); 
 
             const removeButton = document.createElement("button");
             removeButton.textContent = "-";
-            removeButton.classList.add("remove-button", "button"); // Add classes for styling
+            removeButton.classList.add("remove-button", "button"); 
             removeButton.addEventListener("click", () => {
                 removeFromCart(index);
             });
 
             const addButton = document.createElement("button");
             addButton.textContent = "+";
-            addButton.classList.add("add-button", "button"); // Add classes for styling
+            addButton.classList.add("add-button", "button"); 
             addButton.addEventListener("click", () => {
                 addToCart(item.product, item.price);
             });
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function clearCart() {
-        cart.length = 0; // Clear the cart array
+        cart.length = 0; 
         updateCart();
     }
     function validateForm() {
@@ -98,8 +98,6 @@ document.addEventListener("DOMContentLoaded", function () {
     checkoutButton.addEventListener("click", function () {
         const isValid = validateForm();
         if (isValid) {
-            // Implement the logic to handle the checkout (e.g., submit the form to a server)
-            // You can also clear the cart after successful checkout
             alert("Order placed successfully!");
             clearCart();
         }
@@ -108,11 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     clearCartButton.addEventListener("click", function () {
         clearCart();
     });
-
-    // Store the cart data in local storage for use on page reload
     localStorage.setItem("cart", JSON.stringify(cart));
-
-    // Load the cart data from local storage on page load
     const savedCart = JSON.parse(localStorage.getItem("cart"));
     if (savedCart) {
         cart.push(...savedCart);
