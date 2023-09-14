@@ -1,0 +1,22 @@
+.fruits{
+    border-color: #111;
+    margin-left: 50;
+  }
+  .text{
+    margin-left: 20;
+    font-size: 50;
+    margin-top: 130;
+    
+  }
+  .pic{
+    float: right;
+    margin-right: 1000;
+    margin-top: -350;
+   
+  }
+  .button {
+    border-radius: 8px;
+    padding: 14px 40px;
+    margin-left: 120;
+    margin-top: -40;
+  }

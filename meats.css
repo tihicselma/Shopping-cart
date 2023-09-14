@@ -1,0 +1,21 @@
+.meats
+{
+    margin-left: 50;
+    margin-top: 100;
+}
+.title{
+    font-size: 50;
+}
+.pictu{
+    float: right;
+    margin-right: 1070;
+    margin-top: -350;
+    width: 350;
+    height: 400;
+}
+.buttoonn {
+    border-radius: 8px;
+    padding: 14px 40px;
+    margin-left: 120;
+    margin-top: -40;
+  }

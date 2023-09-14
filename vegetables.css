@@ -1,0 +1,21 @@
+.vegetables{
+    margin-left: 550;
+}
+.pict{
+    float: right;
+    margin-top: -490;
+    margin-right: -100;
+
+}
+.textt{
+    margin-top: -250;
+    margin-left: 350;
+    font-size: 50;
+}
+.buttonn
+{
+    border-radius: 8px;
+    padding: 14px 40px;
+    margin-left: 650;
+    margin-top: -180;
+}

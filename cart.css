@@ -1,0 +1,62 @@
+/* Style for the cart section */
+#cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto; /* Center the cart horizontally */
+    text-align: center; /* Center text within the cart */
+}
+
+#cart h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-button {
+    background-color: #DC3545;
+}
+
+.add-button {
+    background-color: #28A745;
+}
+
+/* Style for the checkout button */
+#checkout-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style for the clear cart button */
+#clear-cart-button {
+    background-color: #DC3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

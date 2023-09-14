@@ -1,0 +1,244 @@
+<head>
+    <title>Fresh Finds</title>
+    <link rel="stylesheet"  href="navigation.css">
+    <link rel="stylesheet"  href="buy.css">
+    <link rel="stylesheet"  href="dropdown.css">
+    <link rel="stylesheet" href="dropdown2.css">
+    <link rel="stylesheet"  href="about.css">
+    <link rel="stylesheet"  href="cart.css">
+
+</head>
+    <body>
+        <ul>
+            <img class="logo" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/logo.jpg" alt="Logo">
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/home_page.html">Home</a></li>
+            <li><a class="active" href="file:///C:/Users/selma/Desktop/Shopping%20cart/fruits.html">Fruits</a></li>
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/vegetables.html">Vegetables</a></li>
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/milk.html">Dairy</a></li>
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/meats.html">Meats</a></li>
+
+        <div class="dropdown">
+          <button class="dropbtn">Sorting</button>
+          <select id="sorting-dropdown" class="dropdown-content">
+            <option value="asc">Name (A-Z)</option>
+            <option value="desc">Name (Z-A)</option>
+            <option value="priceHighToLow"> Price (High To Low)</option>
+            <option value="priceLowToHigh">Price (Low To High) </option>
+          </select>
+        </div>
+             
+        </ul>
+
+        <div id="products">
+
+          <div class="product" id="Pineapple">
+            <div class="card" style="background-color:white;">
+              <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/pineapple.png" alt="Pineapple">
+              <div class="container">
+                <h2 style="text-align:center;">Pineapple</h2>
+                <p class="price" style="text-align:center;">3.35 KM / Kg </p>
+                <button class="button" data-product="Pineapple" data-price="3.35">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Bananas">
+            <div class="card" style="background-color:white;">
+              <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/banana.png" alt="Bananas">
+              <div class="container">
+                <h2 style="text-align:center;">Bananas</h2>
+                <p class="price" style="text-align:center;">2.45 KM / Kg </p>
+                <p><button class="button" data-product="Bananas" data-price="2.45">ADD TO CART</button></p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Peaches">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/peach.avif" alt="Peaches">
+                  <div class="container">
+                    <h2 style="text-align:center;">Peaches</h2>
+                    <p class="price" style="text-align:center;">3.25 KM / Kg </p>
+                    <p><button class="button" data-product="Peaches" data-price="3.25" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Grape">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/grapes.png" alt="Grape">
+                  <div class="container">
+                    <h2 style="text-align:center;">Grape</h2>
+                    <p class="price" style="text-align:center;">2.95 KM / Kg </p>
+                    <p><button class="button" data-product="Grape" data-price="2.95" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Apples">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/APLE.png" alt="Apples">
+                  <div class="container">
+                    <h2 style="text-align:center;">Apples</h2>
+                    <p class="price" style="text-align:center;">2.55 KM / Kg </p>
+                    <p><button class="button" data-product="Apples" data-price="2.55">ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Pears">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/pear.png" alt="Pears">
+                  <div class="container">
+                    <h2 style="text-align:center;">Pears</h2>
+                    <p class="price" style="text-align:center;">2.95 KM / Kg </p>
+                    <p><button class="button" data-product="Pears" data-price="2.95" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Blueberries">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/blueberries.webp"
+                    alt="Blueberries">
+                  <div class="container">
+                    <h2 style="text-align:center;">Blueberries</h2>
+                    <p class="price" style="text-align:center;">2.95 KM / Kg </p>
+                    <p><button class="button" data-product="Blueberries" data-price="3.35">ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Lemons">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/lemon.png" alt="Lemons">
+                  <div class="container">
+                    <h2 style="text-align:center;">Lemons</h2>
+                    <p class="price" style="text-align:center;">3.75 KM / Kg </p>
+                    <p><button class="button" data-product="Lemons" data-price="3.75" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Mango">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/mango.webp" alt="Mango">
+                  <div class="container">
+                    <h2 style="text-align:center;">Mango</h2>
+                    <p class="price" style="text-align:center;">3.95 KM / Kg </p>
+                    <p><button class="button" data-product="Mango" data-price="3.95" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Dried Cranberry">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/cranberry.png"
+                    alt="Dried Cranberry">
+                  <div class="container">
+                    <h2 style="text-align:center;">Dried Cranberry</h2>
+                    <p class="price" style="text-align:center;"> 2.45 KM </p>
+                    <p><button class="button" data-product="Dried Cranberry" data-price="2.45" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Dried Raisins">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/raisins.png"
+                    alt="Dried Raisins">
+                  <div class="container">
+                    <h2 style="text-align:center;">Dried Raisins</h2>
+                    <p class="price" style="text-align:center;"> 3.95 KM </p>
+                    <p><button class="button" data-product="Dried Raisins" data-price="3.95" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="product" id="Dried Apricots">
+            <div class="row">
+              <div class="column">
+                <div class="card" style="background-color:white;">
+                  <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/apricot.png"
+                    alt="Dried Apricots">
+                  <div class="container">
+                    <h2 style="text-align:center;">Dried Apricots</h2>
+                    <p class="price" style="text-align:center;"> 5.95 KM </p>
+                    <p><button class="button" data-product="Dried Apricots" data-price="5.95" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about">
+          <h1 class="lines">VIEW CART</h1>
+          <div id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cart-items">
+                <br>
+            </ul>
+            <p>Total: <span id="cart-total">0.00 KM</span></p>
+            <button id="checkout-button">Checkout</button>
+            <div id="checkout-form">
+              <h2>Checkout</h2>
+              <form id="checkout-form" action="#" method="post">
+                  <div class="form-group">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="address">Address:</label>
+                      <textarea id="address" name="address" required></textarea>
+                  </div>
+                  <button type="submit" id="checkout-button">Place Order</button>
+              </form>
+          </div>
+            <button id="clear-cart-button">CLEAR CART</button>
+          </div>
+    
+        </div>
+        <script src="cart.js"></script>
+        </div>
+ <script src="sort1.js"></script>
+      </body>

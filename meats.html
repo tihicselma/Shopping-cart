@@ -1,0 +1,164 @@
+<head>
+  <title>Fresh Finds</title>
+  <link rel="stylesheet"  href="navigation.css">
+  <link rel="stylesheet"  href="buy.css">
+  <link rel="stylesheet"  href="dropdown.css">
+  <link rel="stylesheet" href="dropdown2.css">
+  <link rel="stylesheet"  href="about.css">
+  <link rel="stylesheet"  href="cart.css">
+</head>
+    <body>
+        <ul>
+            <img class="logo" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/logo.jpg" alt="Logo">
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/home_page.html">Home</a></li>
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/fruits.html">Fruits</a></li>
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/vegetables.html">Vegetables</a></li>
+            <li><a href="file:///C:/Users/selma/Desktop/Shopping%20cart/milk.html">Dairy</a></li>
+            <li><a class="active" href="file:///C:/Users/selma/Desktop/Shopping%20cart/meats.html">Meats</a></li>
+
+        <div class="dropdown">
+          <button class="dropbtn">Sorting</button>
+          <select id="sorting-dropdown" class="dropdown-content">
+            <option value="asc">Name (A-Z)</option>
+            <option value="desc">Name (Z-A)</option>
+            <option value="priceHighToLow"> Price (High To Low)</option>
+            <option value="priceLowToHigh">Price (Low To High) </option>
+          </select>
+        </div>
+        </ul>
+      <div id="products">
+
+        <div class="product" id="Chicken Breast">
+              <div class="card" style="background-color:white;">
+                <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/breast.png" alt="Chicken Breast">
+                <div class="container">
+                  <h2 style ="text-align:center;">Chicken Breast</h2>
+                  <p class="price" style ="text-align:center;"> 9.95 KM / Kg </p>
+                  <p><button class="button" data-product="Chicken Breast" data-price="9.95 KM" >ADD TO CART</button></p>
+                </div>
+              </div>
+            </div>
+
+          <div class="product" id="Chicken Wings">
+             <div class="card" style="background-color:white;">
+                 <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/wing.png" alt="Chicken Wings">
+                  <div class="container">
+                    <h2 style ="text-align:center;">Chicken Wings</h2>
+                    <p class="price" style ="text-align:center;"> 7.95 KM / Kg </p>
+                    <p><button class="button" data-product="Chicken Wings" data-price="7.95" >ADD TO CART</button></p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product" id="Eggs">
+                      <div class="card" style="background-color:white;">
+                        <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/eggs.png" alt="Eggs">
+                        <div class="container">
+                          <h2 style ="text-align:center;">Eggs</h2>
+                          <p class="price" style ="text-align:center;"> 2.45 KM  </p>
+                          <p><button class="button" data-product="Eggs" data-price="2.45" >ADD TO CART</button></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="product" id="Ground Beef">
+                          <div class="card" style="background-color:white;">
+                            <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/ground.png" alt="Ground Beef">
+                            <div class="container">
+                              <h2 style ="text-align:center;">Ground Beef</h2>
+                              <p class="price" style ="text-align:center;">  7.49 KM / Kg </p>
+                              <p><button class="button" data-product="Ground Beef" data-price="7.49" >ADD TO CART</button></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="product" id="Ground Beef Patties">
+                              <div class="card" style="background-color:white;">
+                                <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/patties.png" alt="Ground Beef Patties">
+                                <div class="container">
+                                  <h2 style ="text-align:center;"> Ground Beef Patties </h2>
+                                  <p class="price" style ="text-align:center;"> 8.95 KM / Kg </p>
+                                  <p><button class="button" data-product="Ground Beef Patties" data-price="8.95" >ADD TO CART</button></p>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="product" id="Beef Steak">
+                                  <div class="card" style="background-color:white;">
+                                    <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/steak.png" alt="Beef Steak">
+                                    <div class="container">
+                                      <h2 style ="text-align:center;"> Beef Steak </h2>
+                                      <p class="price" style ="text-align:center;"> 19.45 KM / Kg  </p>
+                                      <p><button class="button" data-product="Beef Steak" data-price="19.45" >ADD TO CART</button></p>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="product" id="Lamb Chop">
+                                      <div class="card" style="background-color:white;">
+                                        <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/chop.jpeg" alt="Lamb Chops">
+                                        <div class="container">
+                                          <h2 style ="text-align:center;"> Lamb Chop </h2>
+                                          <p class="price" style ="text-align:center;"> 15.95 KM /Kg </p>
+                                          <p><button class="button" data-product="Lamb Chop" data-price="15.95" >ADD TO CART</button></p>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="product" id="Lamb Cutlets">
+                                          <div class="card" style="background-color:white;">
+                                            <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/cutlets.png" alt="Lamb Cutlets">
+                                            <div class="container">
+                                              <h2 style ="text-align:center;">Lamb Cutlets</h2>
+                                              <p class="price" style ="text-align:center;"> 17.95 KM / Kg  </p>
+                                              <p><button class="button" data-product="Lamb Cutlets" data-price="17.95" >ADD TO CART</button></p>
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="product" id="Lamb Shoulder">
+                                              <div class="card" style="background-color:white;">
+                                                <img style="margin-left: 180px;" src="file:///C:/Users/selma/Desktop/Shopping%20cart/slike/shoulder.png" alt="Lamb Shoulder">
+                                                <div class="container">
+                                                  <h2 style ="text-align:center;">Lamb Shoulder</h2>
+                                                  <p class="price" style ="text-align:center;">16.55 KM / Kg  </p>
+                                                  <p><button class="button" data-product="Lamb Shoulder" data-price="16.55" >ADD TO CART</button></p>
+                                                </div>
+                                              </div>
+                                            </div>
+                              </div>
+                              <div class="about">
+                                <h1 class="lines">VIEW CART</h1>
+                                <div id="cart">
+                                  <h2>Your Cart</h2>
+                                  <ul id="cart-items">
+                                      <br>
+                                  </ul>
+                                  <p>Total: <span id="cart-total">0.00 KM</span></p>
+                                  <button id="checkout-button">Checkout</button>
+                                  <div id="checkout-form">
+                                    <h2>Checkout</h2>
+                                    <form id="checkout-form" action="#" method="post">
+                                        <div class="form-group">
+                                            <label for="name">Name:</label>
+                                            <input type="text" id="name" name="name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email:</label>
+                                            <input type="email" id="email" name="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="address">Address:</label>
+                                            <textarea id="address" name="address" required></textarea>
+                                        </div>
+                                        <button type="submit" id="checkout-button">Place Order</button>
+                                    </form>
+                                </div>
+                                  <button id="clear-cart-button">CLEAR CART</button>
+                                </div>
+                          
+                              </div>
+                              <script src="cart.js"></script>
+                                <script src="sort1.js"></script>
+                                          </body>
+                    
